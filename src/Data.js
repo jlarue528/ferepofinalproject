@@ -1,6 +1,6 @@
 export default class Data {    
     api(path, method = 'GET', body = null, requiresAuth = false, credentials = null) {
-        const url = `https://befinalproject10.herokuapp.com` + path;
+        const url = `https://befinalproject10.herokuapp.com/api` + path;
     
         const options = {
           method,
